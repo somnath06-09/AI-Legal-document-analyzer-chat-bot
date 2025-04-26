@@ -16,7 +16,7 @@ logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %
 logger = logging.getLogger()
 
 # Replace with your actual Gemini API key
-API_KEY = "AIzaSyBPbcjoiIi-KoaVbHjhCZbt7STepvmsEUQ"
+API_KEY = "YOUR_API_KEY"
 
 # Configure Gemini API
 genai.configure(api_key=API_KEY)
